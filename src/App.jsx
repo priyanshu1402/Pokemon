@@ -21,6 +21,7 @@ function App() {
 
         <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/pokemon/:id" element={<PokemonDetail />} />
         <Route path="/savedpokemon" element={<SavedPokemon />} />
